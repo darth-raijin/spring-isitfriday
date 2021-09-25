@@ -1,0 +1,26 @@
+<!--Ideelt set skulle denne arve fra index.html for at undgå at skrive det samme flere gange-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <title>
+        Is it Friday?
+    </title>
+</head>
+<body>
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+          <p class="title" th:text="'Hello, ' + ${name} + '!'">
+          <p class="subtitle">
+            Exercise 1.2
+          </p>
+        </div>
+      </section>
+    <div id="content">
+    </div>
+</body>
+</html>
